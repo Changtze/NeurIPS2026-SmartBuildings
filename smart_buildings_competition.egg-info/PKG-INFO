@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: smart-buildings-competition
+Version: 0.1.0
+Summary: Smart Buildings Foundation Model Competition
+Author: Judah Goldfeder, Ayush Rai
+License-Expression: Apache-2.0
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==2.0.2
+Requires-Dist: numba==0.60.0
+Requires-Dist: pandas==2.3.3
+Requires-Dist: matplotlib==3.10.0
+Requires-Dist: gymnasium==1.2.0
+Requires-Dist: gin-config==0.5.0
+Requires-Dist: opencv-python==4.13.0.92
+Requires-Dist: protobuf==5.29.5
+Requires-Dist: pillow==11.3.0
+Requires-Dist: pytz==2025.2
+Requires-Dist: holidays==0.95
+Requires-Dist: plotly==5.24.1
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: scipy==1.16.3
+Requires-Dist: scikit-learn==1.6.1
+Requires-Dist: pyyaml==6.0.3
+Requires-Dist: google-genai==1.68.0
+Requires-Dist: google-auth==2.47.0
+Requires-Dist: absl-py==1.4.0
+Requires-Dist: importlib_resources==7.1.0
+Requires-Dist: imageio==2.37.3
+Requires-Dist: tqdm==4.67.3
+Provides-Extra: learned
+Requires-Dist: torch; extra == "learned"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: absl-py; extra == "dev"
+Requires-Dist: pyink; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: mdformat; extra == "dev"
+Requires-Dist: types-protobuf; extra == "dev"
+Requires-Dist: pandas-stubs~=2.3.0; extra == "dev"
